@@ -1,0 +1,36 @@
+Project 4
+
+Three files required
+-Brute
+-Fast
+-Point
+
+To Run
+-Takes two command-line arguments, the txt name and whether to output lines
+
+Sample Run
+-java Brute input8.txt -v
+	Plots and outputs all possible lines
+-java Brute input8.txt 
+	Just plots
+
+Problem Statements
+- Given a set of N distinct points in the plane, identify and draw every maximal 
+	line segment that connects a subset of four or more of the points. Each point 
+	will be specified by an (x, y) pair where x and y are double values 
+	in the range 0 to 32,767.
+
+Brute
+-Takes the brute force method to find all possible lines from the text file. 
+-Worst case O(N^4)
+-Uses O(N) space
+
+Fast
+-Uses sort method to quickly find all possible lines from the text file.
+-Worst case O((N^2)*log(N))
+-Uses O(N) space
+
+Point
+-provides methods to find lines
+
+Also one sample file is provided along with a picture of the plotted lines.

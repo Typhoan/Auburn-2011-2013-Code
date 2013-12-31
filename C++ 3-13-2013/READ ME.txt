@@ -1,0 +1,12 @@
+Overview:
+
+The Goal of the project was to create a simple text game to get to the end of the hall
+of Shelby Center (Software Engineering Building). The player starts with a random amount
+of time, intelligence, and money. While playing the game time will be decreased and the 
+other stats will be affected based of the random events in the game. Once the player 
+is finished the score is calculated and recorded if it makes the highscores. 
+
+To Compile:
+
+I used the Cygwyn Libraries on Windows 7. The Code should work on other computers with g++
+

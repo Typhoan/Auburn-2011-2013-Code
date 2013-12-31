@@ -1,0 +1,18 @@
+READ ME
+Steps to compile:
+	Note you must have the Irvine Library to compile, it is located at...
+	http://www.asmirvine.com/ under Link Libraries and Examples.
+
+1.	make the path of the command prompt that of the location of the assembly files. 
+	This is done by using the command cd <your path>
+2.	Start compiling the files using the following commands:
+	>ml /c /I C:\Irvine main.asm
+	>ml /c /I C:\Irvine inputs.asm
+	>ml /c /I C:\Irvine grading.asm
+	>ml /c /I C:\Irvine stats.asm 
+
+3.	Now that you have you object files use the following command:
+	>link /MAP /LIBPATH:C:\Irvine user32.lib irvine32.lib kernel32.lib 
+	/SUBSYSTEM:CONSOLE main.obj inputs.obj grading.obj stats.obj
+4.	To execute the file type the command: 
+	> main.exe

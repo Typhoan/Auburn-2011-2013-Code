@@ -1,0 +1,39 @@
+To execute any of the programs, move the .pl files to the correct location and load the programs using the commands:
+[union].
+[findMax].
+[intersection].
+[sister].
+[quicksort].
+
+~~~union~~~
+Returns a list of all unique elements.
+to run follow the following syntax.
+
+union([1,2,...,n],[1,2,...,n],X).
+
+~~~findMax~~~~
+Returns the max in the list.
+to run follow the following syntax.
+
+findMax([1,2,...,n], X).
+
+~~~intersection~~~~
+The program fails if there is an intersection. Else it returns a null list.
+to run follow the following syntax.
+
+intersection([1,2,...,n],[1,2,...,n],X).
+
+~~~sister~~~~~
+Returns true if X is a sister of Y. Or will return the name of the sister.
+Follow the following syntax to run.
+
+male(X).
+female(X).
+parent(X,Y).
+sister(X,Y).
+
+~~~~quicksort~~~~
+Returns a sorted list.
+to run follow the following syntax.
+
+quicksort([1,2,...,n], X).

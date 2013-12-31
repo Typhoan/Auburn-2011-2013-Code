@@ -1,0 +1,67 @@
+To run, hit run in the racket IDE and type the function in
+
+--------------Power Function------------
+
+(Power n k)
+
+Parameters - n and k
+	n is a number being raised by a number k
+output - n raised to the k
+
+----Sample Call-----
+
+(Power 2 3)
+8
+
+-----------Find Max Min Function------------
+
+(FindMaxMin lst)
+
+Parameters - a list of numbers
+
+output - the min and max number in the list
+
+----Sample Call----
+
+(FindMaxMin(list 1 2 3 4))
+Min: 1 Max: 4
+
+-----------Reverse Function-----------
+
+(Reverse lst)
+
+Parameter - a list 
+
+output - the inputed list reversed
+
+----Sample Call----
+
+(Reverse(list 1 2 3 4 5))
+'(5 4 3 2 1)
+
+------------Union Function-------------
+
+(Union lst1 lst2)
+
+Parameters - lst1 and lst2
+	lst1 - a list
+	lst2 - a list
+
+output - lst1 and lst2 combined
+
+----Sample Call----
+
+(Union(list 1 2) (list 3 4))
+'(1 2 3 4)
+
+----------QuickSort Function------------
+
+(Quicksort lst)
+
+Parameters - a list of numbers
+
+output - a sorted list
+
+----Sample Call----
+(Quicksort(list 5 3 2 1 4))
+'(1 2 3 4 5)

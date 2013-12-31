@@ -1,0 +1,9 @@
+Overview:
+The project was to create a teller terminal system that must keep track of all admin,
+branch staff, and clients. Admins may create, delete, and modify clients, and branch staff.
+While branch staff can only create and modify clients. 
+
+To Compile:
+
+I used the Cygwyn Libraries on Windows 7. The Code should work on other computers with g++
+
